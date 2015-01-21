@@ -45,4 +45,7 @@ public class CanvasActor extends Actor {
         super.draw(batch, parentAlpha);
         batch.draw(_canvasTexture, getX(),getY());
     }
+    public Pixmap getPixmap() {
+        return _canvas;
+    }
 }
